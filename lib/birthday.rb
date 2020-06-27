@@ -10,7 +10,10 @@ def happy_birthday(birthday_kids)
   end
 end
 
-def age_appropriate_birthday
+def age_appropriate_birthday(kids)
+  kids.each do |key, value|
+    if value > 12
+      puts ""
   
 end
 
